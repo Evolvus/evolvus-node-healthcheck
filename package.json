@@ -1,5 +1,5 @@
 {
-  "name": "evolvus-healthCheck",
+  "name": "evolvus-node-healthCheck",
   "version": "2.0.0",
   "description": "Application encapsulates Application functionality across all Evolvus products",
   "main": "index.js",
