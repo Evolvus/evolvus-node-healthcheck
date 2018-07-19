@@ -7,6 +7,9 @@ var healthChecktSchema = new mongoose.Schema({
     type: String,
     minLength: 3,
     maxLength: 20
+  },
+  saveTime: {
+    type: Date
   }
 });
 

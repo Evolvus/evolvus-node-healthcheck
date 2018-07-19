@@ -13,6 +13,13 @@ var healthCheckSchema = {
       "maxLength": 20,
       "filterAttributes": false,
       "sortableAttributes": false
+    },
+    "saveTime": {
+      "type": "string",
+      "format": "date-time",
+      "filterable": false, //custom attributes
+      "sortable": false //custom attributes
+
     }
   },
   "required": ["status"]
